@@ -1,0 +1,18 @@
+show databases;
+create database VladimirDAT;
+use VladimirDAT;
+
+create table Carros(Propietario VARCHAR(18),marca VARCHAR(20), modelo integer(4), n_identificacion integer(14), telefono integer(12), color VARCHAR(15), Pais VARCHAR(18), cod_multas VARCHAR(18), fecha VARCHAR(8), nombre VARCHAR(18), n_revisiones integer(50));
+create table Comparendos(cod_multas VARCHAR(18), fecha VARCHAR(8), motivos_deuda VARCHAR(100));
+create table Origenes(Pais VARCHAR(18), cod_pais integer(10), marca VARCHAR(20));
+create table Propietarios(n_identificacion integer(14), nombre VARCHAR(18), telefono integer(12), correo VARCHAR(30));
+create table Colores(color VARCHAR(15), cod_color integer(8));
+create table Mantenimiento(n_revisiones integer(30), lugar VARCHAR(25));
+Show tables;
+
+describe Carros;
+describe Comparendos;
+describe Origenes;
+describe Propietarios;
+describe Colores;
+describe Mantenimiento;

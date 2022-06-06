@@ -4,12 +4,12 @@ create database baseDeDatos;
 show databases;
 use baseDeDatos;
 
-create table Pedido(Usuario integer, Tipo_De_Comida integer,
-Plataos integer, Sabor_bebida integer, Cant_bebida integer,
-Adicionales integer, primary key(Usuario)   );
-
-create table Desc_ Pedido(Cod_pedido integer, Usuario integer,
+create table Pedido(Cod_pedido integer, Usuario integer,
 Menu integer, Plato integer, Total integer , primary key(Usuario)   );
+
+create table Desc_ Pedido(Cod_Detalle, Cod_pedido integer,
+Menu integer, Cod_Plato integer, Cantidad integer, Precio_Unitario integer , Sub_Total integer,
+primary key(Desc_Pedido)   );
 
 create table Usuario(Type_Doc varchar(2), Number_Doc integer, Nombre varchar(26), Last_Name varchar(26),
 Years_Old integer, Direccion varchar(20), Email varchar(30), Contrasena varchar(12),

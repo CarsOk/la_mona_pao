@@ -24,3 +24,5 @@ primary key(Codigo)     );
 
 create table insumos(Codigo integer, Producto varchar(20), cantidades varchar(15),
 primary key(Codigo)     );
+
+C:\Users\HPLAPTOP01\Documents\GitHub\la_mona_pao\BDD\Scripts\Scrip_Orlando\script.sql

@@ -43,10 +43,9 @@ color VARCHAR(15),
 primary key(codigo_color)
 );
 show tables;
-describe carros3;
+describe carros13;
 describe marcas;
 describe lineas;
 describe propietario;
 describe Tipos_de_documentos;
 describe colores;
-// ya //

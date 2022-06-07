@@ -49,3 +49,4 @@ describe lineas;
 describe propietario;
 describe Tipos_de_documentos;
 describe colores;
+// ya //

@@ -1,0 +1,20 @@
+mysql-u root-p
+password:
+show databases;
+create database Andres_Navarro;
+use Andres_Navarro;
+create table color(codigo varchar(2), color varchar(20), primary key(codigo));
+describe table;
+create table car(placa varchar(6), color varchar(2), modelo integer, primary key(placa), foreign key references(color));
+insert into color values("RO","rojo");
+insert into color values("AM", "amarillo");
+insert into color values("AZ", "azul");
+insert into color values("VE", "verde);
+insert into color values("NA", "naranja");
+select * from color;
+insert into car values("DCS384", "RO", 2016);
+insert into car values("MDZ573", "AZ", 2015);
+insert into car values("LÑX204", "AM", 2019);
+select * from car;
+exit;
+

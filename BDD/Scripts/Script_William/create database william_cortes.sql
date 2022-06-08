@@ -10,5 +10,5 @@ describe color;
  insert into color values("ro", "rojo");
  insert into color values("bl", "blanco");
  insert into color values("ve", "verde");
-select * from color; 
+select * from color;
  create table car(placa varchar(6), color varchar(2), modelo integer, primary key(placa), foreign key(color) references color(codigo));
